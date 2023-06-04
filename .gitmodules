@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = giclient
+	url = https://github.com/francis-tg/mikortik-controller-client.git
