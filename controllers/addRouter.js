@@ -6,3 +6,7 @@ module.exports.addRouter = (req, res, next) => {
         return res.status(201).json(newRouter);
     }
 }
+module.exports.getRouter = (req, res, next) => {
+    const routers = db.User.findAll();
+    return res.status(200).json(routers);
+}
